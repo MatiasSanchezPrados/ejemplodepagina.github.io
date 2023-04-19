@@ -1,0 +1,230 @@
+body{
+    background-color: rgb(69, 69, 69);
+}
+h1{
+    background-color: rgb(156, 3, 3);
+    margin: 0%;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+    background-color: rgb(29, 29, 29);
+
+}
+div{
+    background-color: rgb(156, 3, 3);
+    border-radius: 10px;
+}
+nav{
+    background-color: rgb(10, 10, 10);
+    height: 60.6px;
+    margin: 0%;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+nav ul li a{
+    padding: 30px;
+    background-color: rgb(29, 29, 29);
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+
+nav ul li a:hover {
+  color: rgb(255, 255, 255);
+  background-color:rgb(156, 3, 3);
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?v5q17r');
+    src:  url('../fonts/icomoon.eot?v5q17r#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?v5q17r') format('truetype'),
+      url('../fonts/icomoon.woff?v5q17r') format('woff'),
+      url('../fonts/icomoon.svg?v5q17r#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-facebook2:before {
+    content: "\ea91";
+  }
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  .icon-whatsapp:before {
+    content: "\ea93";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  .icon-youtube:before {
+    content: "\ea9d";
+  }
+  .icon-blogger2:before {
+    content: "\eab8";
+  }
+  .icon-reddit:before {
+    content: "\eac6";
+  }
+  
+  
+  nav ul li{
+    margin-top: 4px;
+  }
+
+header{
+  background-color: rgb(10, 10, 10);
+  margin: 0%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+}
+
+div.minav{
+  position: sticky;
+}
+
+ul{
+  padding-inline-start: 0%;
+}
+
+h3{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+div.info {
+  width: 75%;
+  margin: 0 auto;
+}
+div.foot{
+  color: white;
+  font-size: large;
+}
+footer
+{
+    margin-top:50px;
+    width:100%;
+    height:200px;
+}
+div.foot{
+  background-color: grey;
+}
+.contenedorproductos{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  background-color: rgb(69, 69, 69);
+}
+.producto1{
+  grid-column: 1 / 2;
+  grid-row: 1;
+  border: solid black;
+}
+.producto2{
+  grid-column: 2 / 2;
+  grid-row: 1;
+  border: solid black;
+}
+.producto3{
+  grid-column: 3 / 2;
+  grid-row: 2;
+  border: solid black;
+}
+.producto4{
+  grid-column: 1 / 2;
+  grid-row: 2;
+  border: solid black;
+}
+.producto5{
+  grid-column: 1 / 2;
+  grid-row: 3;
+  border: solid black;
+}
+.producto6{
+  grid-column: 2 / 2;
+  grid-row: 3;
+  border: solid black;
+}
+.cesta{
+  border: solid black 1px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+.cesta:hover {
+    color: rgb(255, 255, 255);
+    background-color:rgb(156, 3, 3);
+  }
+
+.icon-facebook2:hover{
+    color: rgb(156, 3, 3);
+  }
+  .icon-facebook2{
+    font-size: xx-large;
+    color: white;
+  }
+  .icon-instagram{
+    font-size: xx-large;
+    color: white;
+  }
+  .icon-instagram:hover{
+    color: rgb(156, 3, 3);
+  }
+.icon-whatsapp:hover{
+  color: rgb(156, 3, 3);
+}
+.icon-whatsapp{
+  font-size: xx-large;
+  color: white;
+}
+.icon-twitter:hover{
+  color: rgb(156, 3, 3);
+}
+.icon-twitter{
+  font-size: xx-large;
+  color: white;
+}
+.icon-youtube:hover{
+  color: rgb(156, 3, 3);
+}
+.icon-youtube{
+  font-size: xx-large;
+  color: white;
+}
+.misiconos{
+  background-color: rgb(10, 10, 10);
+  position: relative;
+  left: 100%;
+}
+.but{
+  border: solid black 1px;
+  background-color: white;
+  color: black;
+  text-decoration: none
+}
+
+p{
+  font-size: 20px;
+
+}
